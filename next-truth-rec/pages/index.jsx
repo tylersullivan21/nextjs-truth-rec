@@ -1,9 +1,9 @@
   
 /*index.jsx*/
-import React from "react";
-//import img1 from "../img/courthouse-overlay.png";
-//import img2 from "../img/road-overlay.png";
-//import img3 from "../img/map-overlay.png";
+//import React from "react";
+//import img1 from "/img/courthouse-overlay.png";
+//import img2 from "/img/road-overlay.png";
+//import img3 from "/img/map-overlay.png";
 //import '../css/TruthRec.css';
 //import "../css/main.css";
 //import { render } from "@testing-library/react";
@@ -11,10 +11,8 @@ import Link from "next/link";
 import Navigation from "../components/Navigation";
 
 //Functional Component 
-class MainPage extends React.Component {
+const MainPage  = () => (
 
-    render(){
-      return (
           <div> 
          <Navigation> </Navigation>
           <section class="index-main">
@@ -42,45 +40,15 @@ class MainPage extends React.Component {
                     
                         <div class="images">
                             <div class="img-left">
-                               <Link href="/resources">
-                                   <a>
-                                    <img class="img1" /*src={img1} */alt=""/>
-                              
-                                <div class="span-text">
-                                    <div class="overlay-text">
-                                        <p>Resources</p>
-                                    </div>
+                               <Link href="/resources"><a><img class="img1" /*src={img1} */ alt=""/><div class="span-text"><div class="overlay-text"><p>Resources</p></div></div></a></Link>
                               </div>
-                            </a>
-                            </Link>
-                                </div>
-  
-                                <div class="img-center">
-                                    <Link href="/timeline">
-                                <a>
-                                    <img class="img2" /*src={img1}*/ alt=""/>
-                                
-                                <div class="span-text">
-                                    <div class="overlay-text">
-                                        <p>Timeline</p>
-                                    </div>
-                              </div>
-                            </a>
-                            </Link>
+
+                              <div class="img-center">
+                                  <Link href="/timeline"><a><img class="img2" /*src={img2} */  alt=""/><div class="span-text"><div class="overlay-text"><p>Timeline</p></div></div></a></Link>
                                 </div>
                     
                                 <div class="img-right">
-                                    <Link href="/events">
-                                <a>
-                                    <img class="img3" /*scr={img3}*/ alt=""/>
-                            
-                              <div class="span-text">
-                                  <div class="overlay-text">
-                                      <p>Events</p>
-                                  </div>
-                            </div>
-                          </a>
-                          </Link>
+                                    <Link href="/events"><a><img class="img3" /*src={img3} */ alt=""/><div class="span-text"><div class="overlay-text"><p>Events</p></div></div></a></Link>
                           </div>
                           </div>
                   <div class="roosevelt-quote">
@@ -100,8 +68,7 @@ class MainPage extends React.Component {
               </section>
           </section>
           </div>
-    );
-  };
-};
+)
+
 
 export default MainPage;
