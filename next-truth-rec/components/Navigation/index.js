@@ -12,7 +12,7 @@ class Navigation extends React.Component{
               <section class="nav">
                                 
                     <div class=" grid-item logo">
-                        <Link href="/"><a><img class="logo-img" /*src={logo} */ alt="truth logo"/></a></Link>
+                        <Link href="/"><a><img class="logo-img" src="/img/truth-logo.png" alt="truth logo"/></a></Link>
                     </div>
                     <div class=" grid-item elements">
                         <ul class="element-children">

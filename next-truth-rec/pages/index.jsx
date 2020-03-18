@@ -40,15 +40,15 @@ const MainPage  = () => (
                     
                         <div class="images">
                             <div class="img-left">
-                               <Link href="/resources"><a><img class="img1" /*src={img1} */ alt=""/><div class="span-text"><div class="overlay-text"><p>Resources</p></div></div></a></Link>
+                               <Link href="/resources"><a><img class="img1" src="/img/courthouse-overlay.png" alt=""/><div class="span-text"><div class="overlay-text"><p>Resources</p></div></div></a></Link>
                               </div>
 
                               <div class="img-center">
-                                  <Link href="/timeline"><a><img class="img2" /*src={img2} */  alt=""/><div class="span-text"><div class="overlay-text"><p>Timeline</p></div></div></a></Link>
+                                  <Link href="/timeline"><a><img class="img2" src="/img/road-overlay.png"  alt=""/><div class="span-text"><div class="overlay-text"><p>Timeline</p></div></div></a></Link>
                                 </div>
                     
                                 <div class="img-right">
-                                    <Link href="/events"><a><img class="img3" /*src={img3} */ alt=""/><div class="span-text"><div class="overlay-text"><p>Events</p></div></div></a></Link>
+                                    <Link href="/events"><a><img class="img3" src="/img/map-overlay.png" alt=""/><div class="span-text"><div class="overlay-text"><p>Events</p></div></div></a></Link>
                           </div>
                           </div>
                   <div class="roosevelt-quote">
