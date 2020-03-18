@@ -9,12 +9,15 @@
 //import { render } from "@testing-library/react";
 import Link from "next/link";
 import Navigation from "../components/Navigation";
+import Modal from "../components/Modal";
+import Footer from "../components/Footer";
 
 //Functional Component 
 const MainPage  = () => (
 
           <div> 
-         <Navigation> </Navigation>
+         <Navigation/>
+         <Modal/>
           <section class="index-main">
   
                 <div class="hero grid-item">
@@ -67,6 +70,7 @@ const MainPage  = () => (
 
               </section>
           </section>
+          <Footer/>
           </div>
 )
 

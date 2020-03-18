@@ -1,5 +1,7 @@
-import React from 'react';
-import "./index.css";
+//import React from 'react';
+//import "./index.css";
+
+import Link from "next/link";
 
 class Modal extends React.Component{
 
@@ -34,11 +36,11 @@ class Modal extends React.Component{
                     </a> 
                 </div>
                 <ul class="modal-children">
-                    <li class="menu1"><a href={this.props.links[0].link}>{this.props.links[0].title}</a></li>
-                    <li class="menu2"><a href={this.props.links[1].link}>{this.props.links[1].title}</a></li>
-                    <li class="menu3"><a href={this.props.links[2].link}>{this.props.links[2].title}</a></li>
-                    <li class="menu4"><a href={this.props.links[3].link}>{this.props.links[3].title}</a></li>
-                    <li class="menu5"><a href={this.props.links[4].link}>{this.props.links[4].title}</a></li>
+                    <li class="menu1"> <Link href="/about"><a>About</a></Link></li>
+                    <li class="menu2"><Link href="/resources"><a>Resources</a></Link></li>
+                    <li class="menu3"><Link href="/reparations"><a>Reparations</a></Link></li>
+                    <li class="menu4"><Link href="/events"><a>Events</a></Link></li>
+                    <li class="menu5"><Link href="/contact"><a>Contact</a></Link></li>
                 </ul> 
             </div>
 

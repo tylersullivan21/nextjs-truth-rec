@@ -2,6 +2,8 @@ import React from "react";
 //import '../public/css/TruthRec.css';
 //import "../public/css/contact.css";
 import Navigation from "../components/Navigation";
+import Modal from "../components/Modal";
+import Footer from "../components/Footer";
 
 var hiddenStyle = { display: 'none'};
 
@@ -169,6 +171,7 @@ class ContactPage extends React.Component {
         return (
             <div>
             <Navigation />
+            <Modal/>
             <section id="contact-main" class="main">
                 <div id="main-content">
                     <h1 class="title">Contact Us</h1>
@@ -211,6 +214,7 @@ class ContactPage extends React.Component {
                     </div>
              </div>  
             </section>
+            <Footer/>
             </div>
         );
     }
