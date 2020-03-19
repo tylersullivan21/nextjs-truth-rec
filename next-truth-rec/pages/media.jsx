@@ -25,7 +25,7 @@ render(){
                     <a data-toggle="modal" data-target="#myModal1">
                     <div class="image-top-left">
 
-                            <img data-toggle="modal" src={shadows} class="resource" alt="in the shadows image"/>
+                            <img data-toggle="modal" src="img/shadows.png" class="resource" alt="in the shadows image"/>
 
                     </div>
 
@@ -41,7 +41,7 @@ render(){
                     <a data-toggle="modal" data-target="#myModal2">
                     <div class="image-top-left">
 
-                            <img src={boDidley} class="resource" alt="image of Bo Diddley Memorial 2008"/>
+                            <img src="bo-diddley.png" class="resource" alt="image of Bo Diddley Memorial 2008"/>
                     
                     </div>
 
@@ -55,7 +55,7 @@ render(){
                     <a data-toggle="modal" data-target="#myModal3">
                     <div class="image-top">
 
-                            <img src={baseballPlayers} class="resource" alt="image of baseball players"/>
+                            <img src="baseball-league.png" class="resource" alt="image of baseball players"/>
 
                     </div>
 
@@ -71,7 +71,7 @@ render(){
                     <a data-toggle="modal" data-target="#myModal4">
                     <div class="image-top">
 
-                            <img src={verdellWashington} class="resource" alt="image of Verdell Washington" />
+                            <img src="img/verdell.png" class="resource" alt="image of Verdell Washington" />
     
                     </div>
 
@@ -87,7 +87,7 @@ render(){
                     <a data-toggle="modal" data-target="#myModal6">
                     <div class="image-top">
 
-                            <img src={cottonClub} class="resource" alt="image of chari person of cotton club museum"/>
+                            <img src="img/cotton-club.png" class="resource" alt="image of chari person of cotton club museum"/>
 
 
                      
