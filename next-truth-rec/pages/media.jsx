@@ -41,7 +41,7 @@ render(){
                     <a data-toggle="modal" data-target="#myModal2">
                     <div class="image-top-left">
 
-                            <img src="bo-diddley.png" class="resource" alt="image of Bo Diddley Memorial 2008"/>
+                            <img src="img/bo-diddley.png" class="resource" alt="image of Bo Diddley Memorial 2008"/>
                     
                     </div>
 
