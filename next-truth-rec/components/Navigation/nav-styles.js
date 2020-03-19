@@ -1,3 +1,7 @@
+import css from 'styled-jsx/css'
+
+
+export default css `
 /* CSS FOR NAVBAR AND SUBNAV BAR*/
 .nav {
     -ms-grid-row: 1;
@@ -82,10 +86,10 @@ a .logo-img {
 .sub-elements li {
     padding-right: 30px;
 }
-a {
+.sub-elements a , .elements a {
     text-decoration: none;
 }
-ul {
+.nav ul {
     list-style-type: none;
 
 }
@@ -101,7 +105,7 @@ ul.modal-children{
 }
 
 
-ul li {
+.nav ul li {
     display: inline;
 
 }
@@ -116,7 +120,7 @@ ul.modal-children li {
 ul.modal-children li a{
     border-bottom: 1px solid grey;
 }
-ul li a {
+.nav ul li a {
     color: #fff;
 
 
@@ -499,3 +503,5 @@ ul li a {
 
 
 /****** NAVIGATION ENDS HERE *******/
+
+`
