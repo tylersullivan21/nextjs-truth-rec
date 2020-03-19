@@ -181,6 +181,19 @@ ul li a {
     display: block;
 }
 
+ .bar {
+    display: block;
+    margin-right: 20px;
+    width: 25px;
+    margin-bottom: 5px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 1px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
 
 
 @media screen and (max-width: 1340px){

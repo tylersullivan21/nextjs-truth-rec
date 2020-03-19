@@ -141,7 +141,34 @@ ul.modal-children li a{
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
 
+}
+
+
+
+ul li {
+    display: inline;
+
+}
+
+ul.modal-children li {
+    display: inline;
+    height:45px;
+
+}
+
+
+
+ul li a {
+    color: #fff;
+
+
+}
 
 #closeModalBtn{
     -ms-grid-column-align: end;
