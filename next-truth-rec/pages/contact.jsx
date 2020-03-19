@@ -1,9 +1,8 @@
 import React from "react";
 //import '../public/css/TruthRec.css';
 //import "../public/css/contact.css";
-import Navigation from "../components/Navigation";
-import Modal from "../components/Modal";
-import Footer from "../components/Footer";
+import Layout from "../components/Layout";
+import contactStyles from "../public/jsx-styles/contact-styles";
 
 var hiddenStyle = { display: 'none'};
 
@@ -169,44 +168,42 @@ class ContactPage extends React.Component {
   
     render(){
         return (
-            <div>
-            <Navigation />
-            <Modal/>
-            <section id="contact-main" class="main">
+            <Layout>
+            <section id="contact-main" className="main">
                 <div id="main-content">
-                    <h1 class="title">Contact Us</h1>
-                    <div class="contact-story">
+                    <h1 className="title">Contact Us</h1>
+                    <div className="contact-story">
                         <h3><strong>Send Us Your Story</strong></h3>
                     </div>                   
-                    <div class="form">
+                    <div className="form">
                         <form method="post" onSubmit={this.handleSubmit} id="contactform">
                               <div id="UpdatePanel1">
 	
-                                        <ul class="form-style-1">
+                                        <ul className="form-style-1">
                                             <li>
-                                                <label>Full Name <span class="required">*</span></label>
-                                                <input name="firstName" maxLength="125" id="firstName" type="text" class="field-divided" placeholder="First" required="required" onChange={this.handleUserInput} value={this.state.firstName} />
-                                                <span id="firstNameMsg" class="form-validation" aria-live="polite" aria-label="First Name"> * Required </span>
-                                                <input name="lastName" maxLength="125" id="lastName" type="text" class="field-divided" placeholder="Last"  required="required"  onChange={this.handleUserInput} value={this.state.lastName}/>
-                                                <span id="lastNameMsg" class="form-validation" aria-live="polite" aria-label="Last Name"> * Required  </span>
+                                                <label>Full Name <span className="required">*</span></label>
+                                                <input name="firstName" maxLength="125" id="firstName" type="text" className="field-divided" placeholder="First" required="required" onChange={this.handleUserInput} value={this.state.firstName} />
+                                                <span id="firstNameMsg" className="form-validation" aria-live="polite" aria-label="First Name"> * Required </span>
+                                                <input name="lastName" maxLength="125" id="lastName" type="text" className="field-divided" placeholder="Last"  required="required"  onChange={this.handleUserInput} value={this.state.lastName}/>
+                                                <span id="lastNameMsg" className="form-validation" aria-live="polite" aria-label="Last Name"> * Required  </span>
 
                                             </li>
                                             <li>
-                                                <label htmlFor="inputEmail">Email <span class="required">*</span></label>
-                                                <input name="inputEmail" maxLength="256" id="inputEmail" type="email" class="field-long" placeholder="Email"  required="required" onChange={this.handleUserInput} value={this.state.email}/>
-                                                <span id="EmailMsg" class="form-validation" aria-live="polite" aria-label="Email"> Please specify a valid email address.  </span>
+                                                <label htmlFor="inputEmail">Email <span className="required">*</span></label>
+                                                <input name="inputEmail" maxLength="256" id="inputEmail" type="email" className="field-long" placeholder="Email"  required="required" onChange={this.handleUserInput} value={this.state.email}/>
+                                                <span id="EmailMsg" className="form-validation" aria-live="polite" aria-label="Email"> Please specify a valid email address.  </span>
                                             </li>
                                             <li>
-                                                <label htmlFor="inputMessage">Your Message <span class="required">*</span></label>
-                                                <textarea name="inputMessage" rows="3" cols="20" id="inputMessage" class="field-long field-textarea" placeholder="" onChange={this.handleUserInput} value={this.state.inputMessage} required="required"></textarea>
-                                                <span id="MessageMsg" class="form-validation" aria-live="polite" aria-label="Message"> * Required </span>
+                                                <label htmlFor="inputMessage">Your Message <span className="required">*</span></label>
+                                                <textarea name="inputMessage" rows="3" cols="20" id="inputMessage" className="field-long field-textarea" placeholder="" onChange={this.handleUserInput} value={this.state.inputMessage} required="required"></textarea>
+                                                <span id="MessageMsg" className="form-validation" aria-live="polite" aria-label="Message"> * Required </span>
                                             </li>
                                             <li>
-                                                <input type="submit" name="contact_submit" value="Send Message" id="contact_submit" class="btn learn-button text-white" />
+                                                <input type="submit" name="contact_submit" value="Send Message" id="contact_submit" className="btn learn-button text-white" />
                                             </li>
                                             <li style={hiddenStyle}>
                                                 <label htmlFor="userComment">Comment </label>
-                                                <input name="userComment" autoComplete="off" id="userComment" type="text" class="form-control" placeholder="Your Comment" aria-label="Please leave this field empty" onChange={this.handleUserInput} value={this.state.userComment}/>
+                                                <input name="userComment" autoComplete="off" id="userComment" type="text" className="form-control" placeholder="Your Comment" aria-label="Please leave this field empty" onChange={this.handleUserInput} value={this.state.userComment}/>
                                             </li>
                                         </ul>                                 
                                 </div>
@@ -214,8 +211,8 @@ class ContactPage extends React.Component {
                     </div>
              </div>  
             </section>
-            <Footer/>
-            </div>
+            <style jsx>{contactStyles}</style>
+            </Layout>
         );
     }
 
