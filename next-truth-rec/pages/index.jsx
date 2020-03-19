@@ -8,17 +8,13 @@
 //import "../css/main.css";
 //import { render } from "@testing-library/react";
 import Link from "next/link";
-import Navigation from "../components/Navigation";
-import Modal from "../components/Modal";
-import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 
 //Functional Component 
 const MainPage  = () => (
 
-          <div> 
-         <Navigation/>
-         <Modal/>
-          <section class="index-main">
+    <Layout> 
+          <section class="index-main main">
   
                 <div class="hero grid-item">
                     <img class="hero-img" src="img/cropped-cover-image.png" alt="downtown gainesville image"/>
@@ -67,11 +63,9 @@ const MainPage  = () => (
                   <div class="quote">
                           <p class="quotee"> Franklin D. Roosevelt<br/>November 1, 1940 </p>
                   </div>
-
               </section>
           </section>
-          <Footer/>
-          </div>
+    </Layout>          
 )
 
 
