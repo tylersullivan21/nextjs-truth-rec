@@ -9,7 +9,7 @@ render(){
 return(
 
 <footer id="footer" className="footer">
-<a className="alachua-info" href="#"> Footer text here !! Change me !!</a>
+<a className="alachua-info" href="#"> © Alachua County Truth and Reconciliation </a>
 
 
 <style jsx>{`
