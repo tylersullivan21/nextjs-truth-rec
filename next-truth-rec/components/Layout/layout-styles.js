@@ -11,7 +11,7 @@ body{
     -ms-flex-direction: column;
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 16px;
-    margin: 0;
+    margin: 0!important;
 }
 p {
     display: block;

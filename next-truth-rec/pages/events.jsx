@@ -9,9 +9,9 @@ class EventsPage extends React.Component{
 render(){
     return(
 <Layout>
-    <section id="events-main" class="main">
+    <section id="events-main" className="main">
         <div id="main-content">
-        <h1 class="title">Upcoming Events </h1>
+        <h1 className="title">Upcoming Events </h1>
             <div>
               <h3><a href="https://afam.clas.ufl.edu/african-american-studies-symposium/"><strong>2/20/2020 -
                                     African American Studies Turns 50! Symposium &amp; Anniversary Celebration</strong></a></h3>
@@ -24,7 +24,7 @@ render(){
             <br/>
             <br/>
             <br/>
-            <h2 class="title">Past Events</h2>
+            <h2 className="title">Past Events</h2>
               <div>
                 <h3><strong>2/17/2020 - Alachua County BoCC Special Meeting/Workshop – Truth and Reconciliation Community Remembrance Project</strong></h3>
                 <p>Alachua County is hosting a community workshop to discuss plans for commemorating and recognizing victims of lynching with plans to erect historical markers throughout the county, which will create memorials that acknowledges the horrors of racial injustice. <strong>This workshop will be held at the Senior Recreation Center, 5701 NW 34th Blvd., Gainesville, FL 32653, at 6:00 p.m. It is open to the public.</strong></p><br/>
