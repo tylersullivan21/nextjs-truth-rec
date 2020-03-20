@@ -1,112 +1,42 @@
-import Navigation from "../components/Navigation";
-import Modal from "../components/Modal";
-import Footer from "../components/Footer";
+
+import Layout from "../components/Layout";
+import Link from "next/link";
+import resourceStyles from "../public/jsx-styles/resources-styles"
 
 
 class ResourcesPage extends React.Component{
 
 render(){
     return(
-<div>
-    <Navigation/>
-    <Modal/>
-    <section id="resources-section" class="resources-main">
-        <div class="resources-content">
-            <div class="grid-item title">
-                <h1 class="title-resources">Resources</h1>
+    <Layout>
+    <section id="resources-section" className="resources-main">
+        <div className="resources-content">
+            <div className="grid-item title">
+                <h1 className="title-resources">Resources</h1>
             </div>
-            <div class="grid-items">
-                <div class="image-grid">
+            <div className="grid-items">
+                <div className="image-grid">
                    
-                    <div class="media">
-                        <a href={this.props.links[9].link}>
-                            <img class="resource" src={cottonClub} alt="Image-left" />
-                        
-                            <div class="overlay">
-
-                            </div>
-                            <div class="span-text">
-                                    <div class="text">
-                                        <p>{this.props.links[9].title}</p>
-                                    </div>
-                                </div>
-
-                                <div class="description-text">
-                                    <div class="text-2">
-                                        <p>Photos, Videos</p>
-                                    </div>
-                                </div>
-                            </a>
+                    <div className="media">
+                    <Link href="/media"><a><img className="resource" src="/img/cotton-club-overlay.png" alt="Image-left" /><div className="overlay"></div><div className="span-text"><div className="text"><p>Media</p></div></div><div className="description-text"><div className="text-2"><p>Photos, Videos</p></div></div></a></Link>
                     </div>
-                    <div class="documents">
-                        <a href={this.props.links[10].link}>
-                            <img class="resource" src={documentImg} alt="Image-left" />
-                        
-
-                        <div class="overlay">    
-                        </div>
-
-                        <div class="span-text">
-                            <div class="text">
-                                <p>{this.props.links[10].title}</p>
-                            </div>
-                        </div>
-
-                        <div class="description-text">
-                            <div class="text-2">
-                                <p>Meeting Minutes</p>
-                            </div>
-                        </div>
-                    </a>
+                    <div className="documents">
+                    <Link href="/documents"><a><img className="resource" src="/img/document-overlay.png" alt="Image-left" /><div className="overlay"></div><div className="span-text"><div className="text"><p>Documents</p></div></div><div className="description-text"><div className="text-2"><p>Meeting Minutes</p></div></div></a></Link>
                     </div>
           
-                    <div class="landmarks">
-                        <a href={this.props.links[11].link}>
-                            <img class="resource" src={landmarkImg} alt="Image-left" />
-                        
-                        <div class="overlay">       
-                        </div>
-                        
-                        <div class="span-text">
-                                <div class="text">
-                                    <p>{this.props.links[11].title}</p>
-                                </div>
-                            </div>
-
-                            <div class="description-text">
-                                <div class="text-2">
-                                    <p>Marker Locations, National Register Sites</p>
-                                </div>
-                            </div>
-                        </a>
+                    <div className="landmarks">
+                    <Link href="/landmarks"><a><img className="resource" src="/img/landmark-resource-overlay.png" alt="Image-left" /><div className="overlay"></div><div className="span-text"><div className="text"><p>Landmarks</p></div></div><div className="description-text"><div className="text-2"><p>Marker Locations, National Register Sites</p></div></div></a></Link>
                     </div>
                  
-                    <div class="links">
-                        <a href={this.props.links[13].link}>
-                            <img class="resource" src={linksImg} alt="Image-left" />
-                        
-                        <div class="overlay">      
-                        </div>
-
-                        <div class="span-text">
-                                <div class="text">
-                                    <p>{this.props.links[13].title}</p>
-                                </div>
-                            </div>
-
-                            <div class="description-text">
-                                <div class="text-2">
-                                    <p>Related links, Historical Organizations</p>
-                                </div>
-                            </div>
-                        </a>
+                    <div className="links">
+                    <Link href="/links"><a><img className="resource" src="/img/links-overlay.png" alt="Image-left" /><div className="overlay"></div><div className="span-text"><div className="text"><p>Links</p></div></div><div className="description-text"><div className="text-2"><p>Related links, Historical Organizations</p></div></div></a></Link>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <Footer/>
-</div>
+    <style jsx>{resourceStyles}</style>
+    </Layout>
 )
     }
 }
