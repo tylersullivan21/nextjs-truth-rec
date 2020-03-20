@@ -1,15 +1,13 @@
 import Navigation from "../components/Navigation";
 import Modal from "../components/Modal";
 import Footer from "../components/Footer";
-
-
+import Layout from "../components/Layout";
+import aboutStyles from "../public/jsx-styles/about-styles";
 class AboutPage extends React.Component{
 
 render(){
     return(
-<div>
-    <Navigation/>
-    <Modal/>
+<Layout>
 
     <section class="main-about">
     <h1 class="title-about">Alachua County Truth and Reconciliation Initiative.</h1>
@@ -65,8 +63,8 @@ render(){
          </ol>
     </div>
 </section>
-    <Footer/>
-</div>
+<style jsx>{aboutStyles}</style>
+</Layout>
 )
     }
 }

@@ -9,7 +9,6 @@
 //import { render } from "@testing-library/react";
 import Link from "next/link";
 import Layout from "../components/Layout";
-
 import mainStyles from "../public/jsx-styles/main-styles"
 
 //Functional Component 
