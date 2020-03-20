@@ -2,14 +2,13 @@ import Navigation from "../components/Navigation";
 import Modal from "../components/Modal";
 import Footer from "../components/Footer";
 
-
+import Layout from "../components/Layout";
+import mediaStyles from "../public/jsx-styles/media-styles"
 class MediaPage extends React.Component{
 
 render(){
     return(
-<div>
-    <Navigation/>
-    <Modal/>
+<Layout>
     <section id="media-main" class="main">
             <div class="grid-item intro">
                 <h1>Historical Media Gallery</h1>
@@ -198,9 +197,8 @@ render(){
         
 
         </section>
-
-    <Footer/>
-</div>
+        <style jsx>{mediaStyles}</style>
+ </Layout>
 )
     }
 }
