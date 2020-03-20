@@ -1,10 +1,8 @@
-import Navigation from "../components/Navigation";
-import Modal from "../components/Modal";
-import Footer from "../components/Footer";
-
 import Layout from "../components/Layout";
-import mediaStyles from "../public/jsx-styles/media-styles"
+import mediaStyles from "../public/jsx-styles/media-styles";
+
 class MediaPage extends React.Component{
+
 
 render(){
     return(
