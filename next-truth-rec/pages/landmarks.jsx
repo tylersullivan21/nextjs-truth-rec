@@ -1,6 +1,3 @@
-import Navigation from "../components/Navigation";
-import Modal from "../components/Modal";
-import Footer from "../components/Footer";
 import Layout from "../components/Layout";
 
 class LandmarksPage extends React.Component{
