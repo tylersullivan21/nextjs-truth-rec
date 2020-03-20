@@ -54,7 +54,7 @@ render(){
                     <a data-toggle="modal" data-target="#myModal3">
                     <div className="image-top">
 
-                            <img src="baseball-league.png" className="resource" alt="image of baseball players"/>
+                            <img src="img/baseball-league.png" className="resource" alt="image of baseball players"/>
 
                     </div>
 
