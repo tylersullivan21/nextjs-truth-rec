@@ -3,7 +3,6 @@ import Modal from "../components/Modal";
 import Footer from "../components/Footer";
 import Layout from "../components/Layout";
 import linksStyles from "../public/jsx-styles/links-styles"
-
 class LinksPage extends React.Component{
 
 render(){

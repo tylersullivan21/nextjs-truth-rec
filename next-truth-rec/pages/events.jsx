@@ -1,15 +1,14 @@
 import Navigation from "../components/Navigation";
 import Modal from "../components/Modal";
 import Footer from "../components/Footer";
-
+import Layout from "../components/Layout";
+import eventsStyles from "../public/jsx-styles/events-styles";
 
 class EventsPage extends React.Component{
 
 render(){
     return(
-<div>
-    <Navigation/>
-    <Modal/>
+<Layout>
     <section id="events-main" class="main">
         <div id="main-content">
         <h1 class="title">Upcoming Events </h1>
@@ -93,8 +92,8 @@ render(){
                     <hr/>
                 </div>
             </section>
-    <Footer/>
-</div>
+            <style jsx>{eventsStyles}</style>
+            </Layout>
 )
     }
 }
