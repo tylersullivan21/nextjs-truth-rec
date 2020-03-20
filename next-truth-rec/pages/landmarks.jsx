@@ -2,6 +2,7 @@ import Navigation from "../components/Navigation";
 import Modal from "../components/Modal";
 import Footer from "../components/Footer";
 import Layout from "../components/Layout";
+import landmarksStyles from "../public/jsx-styles/landmarks-styles"
 
 class LandmarksPage extends React.Component{
 
@@ -343,7 +344,7 @@ render(){
 
 
     </section>
-
+    <style jsx>{landmarksStyles}</style>
     </Layout>
 )
     }
