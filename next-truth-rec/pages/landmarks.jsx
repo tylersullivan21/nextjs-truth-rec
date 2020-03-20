@@ -1,7 +1,10 @@
 import Layout from "../components/Layout";
 import landmarksStyles from "../public/jsx-styles/landmarks-styles"
+var hiddenStyle = {display:'none'};
 
 class LandmarksPage extends React.Component{
+
+
 
 render(){
     return(
@@ -24,7 +27,7 @@ render(){
                 <article className="walls-sign">
                     <div className="image-top">
                         <a data-toggle="modal" data-target="#NewberryLynchingMarker">
-                            <img src="img/Newberry-Lynching-Marker.jpg" className="resource" alt="Newberry Lynching Marker" />
+                            <img src="img/landmark-img/Newberry-Lynching-Marker.jpg" className="resource" alt="Newberry Lynching Marker" />
                         </a>
                         <div className="shadow-text">
                             <p><a data-toggle="modal" data-target="#NewberryLynchingMarker"><strong>Newberry Lynching
@@ -36,7 +39,7 @@ render(){
                 <article className="walls-sign">
                     <div className="image-top">
                         <a data-toggle="modal" data-target="#Josiah">
-                            <img src="img/walls.png" className="resource" alt="Walls Lankdmark Image" />
+                            <img src="img/landmark-img/walls.png" className="resource" alt="Walls Lankdmark Image" />
                         </a>
                         <div className="shadow-text">
                             <p><a data-toggle="modal" data-target="#Josiah"><strong>Josiah T. Walls</strong></a></p>
@@ -52,7 +55,7 @@ render(){
                     <div className="image-top">
                         <a href="#img2">
                             </a><a data-toggle="modal" data-target="#Serenola">
-                                <img src="img/serenola.png" className="resource" alt="Image pf Serenola Landmark" />
+                                <img src="img/landmark-img/serenola.png" className="resource" alt="Image pf Serenola Landmark" />
                             </a>
                         
 
@@ -80,7 +83,7 @@ render(){
                     <div className="image-top">
 
                         <a data-toggle="modal" data-target="#quinn">
-                            <img src="img/quinn-jones.png" className="resource" alt="Image of Quinn Jones Landmark" />
+                            <img src="img/landmark-img/quinn-jones.png" className="resource" alt="Image of Quinn Jones Landmark" />
                         </a>
 
 
@@ -96,7 +99,7 @@ render(){
                     <div className="image-top">
 
                         <a data-toggle="modal" data-target="#liberty">
-                            <img src="img/liberty-hill.png" className="resource" alt="Image of Liberty Hill Landmar" />
+                            <img src="img/landmark-img/liberty-hill.png" className="resource" alt="Image of Liberty Hill Landmar" />
                         </a>
 
 
@@ -115,7 +118,7 @@ render(){
                     <div className="image-top">
 
                         <a data-toggle="modal" data-target="#shady-grove">
-                            <img src="img/shady-grove.png" className="resource" alt="Image of Shady Grove Baptist Church" />
+                            <img src="img/landmark-img/shady-grove.png" className="resource" alt="Image of Shady Grove Baptist Church" />
                         </a>
 
 
@@ -133,7 +136,7 @@ render(){
                     <div className="image-top">
 
                         <a data-toggle="modal" data-target="#pleasant">
-                            <img src="img/pleasant-street.png" className="resource" alt="Image of pleasant street historic district" />
+                            <img src="img/landmark-img/pleasant-street.png" className="resource" alt="Image of pleasant street historic district" />
                         </a>
 
 
@@ -164,7 +167,7 @@ render(){
                             1916.</p>
                     </div>
 
-                    <img className="modal-landmark" src={newberryMarker} alt="Newberry Lynching Marker"/>
+                    <img className="modal-landmark" src="/img/landmark-img/Newberry-Lynching-Marker.jpg" alt="Newberry Lynching Marker"/>
 
                 </div>
             </div>
@@ -191,7 +194,7 @@ render(){
                         <p>For more info, <a href="http://www.explorehistoricalachuacounty.com/location/josiah-t-walls/" target="blank">Click Here</a></p>
                     </div>
 
-                    <img className="modal-landmark" src={wallsSign} alt=""/>
+                    <img className="modal-landmark" src="/img/landmark-img/walls.png" alt=""/>
 
 
                 </div>
@@ -217,7 +220,7 @@ render(){
                             plantation, where cotton, sugar cane, and corn were grown. </p>
                         <p>For more info, <a href="http://www.explorehistoricalachuacounty.com/location/serenola-plantation-historical-marker/" target="blank">Click Here</a></p>
                     </div>
-                    <img className="modal-landmark" src={serenolaPlantation} alt=""/>
+                    <img className="modal-landmark" src="/img/landmark-img/serenola.png" alt=""/>
                 </div>
             </div>
         </div>
@@ -242,7 +245,7 @@ render(){
                     </div>
 
 
-                    <img className="modal-landmark" src={quinnJones} alt=""/>
+                    <img className="modal-landmark" src="/img/landmark-img/quinn-jones.png" alt=""/>
 
 
                 </div>
@@ -274,7 +277,7 @@ render(){
                     </div>
 
 
-                    <img className="modal-landmark" src={libertyHill} alt=""/>
+                    <img className="modal-landmark" src="/img/landmark-img/liberty-hill.png" alt=""/>
 
 
                 </div>
@@ -301,7 +304,7 @@ render(){
                     </div>
 
 
-                    <img className="modal-landmark" src={shadyGrove} alt=""/>
+                    <img className="modal-landmark" src="/img/landmark-img/shady-grove.png" alt=""/>
 
 
                 </div>
@@ -330,7 +333,7 @@ render(){
                         <p>For more info, <a href="http://www.explorehistoricalachuacounty.com/location/mt-pleasant-united-methodist-church/" target="blank">Click Here</a></p>
                     </div>
 
-                    <img className="modal-landmark" src={pleasantStreet} alt=""/>
+                    <img className="modal-landmark" src="/img/landmark-img/pleasant-street.png" alt=""/>
 
                 </div>
             </div>
