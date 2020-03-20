@@ -9,26 +9,26 @@ class MediaPage extends React.Component{
 render(){
     return(
 <Layout>
-    <section id="media-main" class="main">
-            <div class="grid-item intro">
+    <section id="media-main" className="main">
+            <div className="grid-item intro">
                 <h1>Historical Media Gallery</h1>
             </div>
          
-            <div class="grid-item video-title">
+            <div className="grid-item video-title">
                 <h1>Videos</h1>
             </div>
 
  
-            <section class="video-content">
-                <article class="shadow-plantations-card">
+            <section className="video-content">
+                <article className="shadow-plantations-card">
                     <a data-toggle="modal" data-target="#myModal1">
-                    <div class="image-top-left">
+                    <div className="image-top-left">
 
-                            <img data-toggle="modal" src="img/shadows.png" class="resource" alt="in the shadows image"/>
+                            <img data-toggle="modal" src="img/shadows.png" className="resource" alt="in the shadows image"/>
 
                     </div>
 
-                    <div class="card-text">
+                    <div className="card-text">
                         <p><strong>In the Shadows of Plantations</strong></p>
                         <p>30:00</p>
                     </div>
@@ -36,29 +36,29 @@ render(){
                     
                 </article>
 
-                <article class="bo-diddley-card">
+                <article className="bo-diddley-card">
                     <a data-toggle="modal" data-target="#myModal2">
-                    <div class="image-top-left">
+                    <div className="image-top-left">
 
-                            <img src="img/bo-diddley.png" class="resource" alt="image of Bo Diddley Memorial 2008"/>
+                            <img src="img/bo-diddley.png" className="resource" alt="image of Bo Diddley Memorial 2008"/>
                     
                     </div>
 
-                    <div class="card-text">
+                    <div className="card-text">
                         <p><strong>Bo Diddley Memorial 2008</strong></p>
                         <p>08:21</p>
                     </div>
                 </a>
                 </article>
-                <article class="baseball-card">
+                <article className="baseball-card">
                     <a data-toggle="modal" data-target="#myModal3">
-                    <div class="image-top">
+                    <div className="image-top">
 
-                            <img src="baseball-league.png" class="resource" alt="image of baseball players"/>
+                            <img src="baseball-league.png" className="resource" alt="image of baseball players"/>
 
                     </div>
 
-                    <div class="card-text">
+                    <div className="card-text">
                         <p><strong>Negro Baseball League Players visit Alachua County</strong></p>
                         <p>09:22</p>
                     </div>
@@ -66,15 +66,15 @@ render(){
                 </article>
 
 
-                <article class="verdell-washington-card">
+                <article className="verdell-washington-card">
                     <a data-toggle="modal" data-target="#myModal4">
-                    <div class="image-top">
+                    <div className="image-top">
 
-                            <img src="img/verdell.png" class="resource" alt="image of Verdell Washington" />
+                            <img src="img/verdell.png" className="resource" alt="image of Verdell Washington" />
     
                     </div>
 
-                    <div class="card-text">
+                    <div className="card-text">
                         <p><strong>Alachua County Talks: Verdell Washington Robinson</strong></p>
                         <p>25:01</p>
                     </div>
@@ -82,17 +82,17 @@ render(){
                 </article>
 
 
-                <article class="cotton-club-card">
+                <article className="cotton-club-card">
                     <a data-toggle="modal" data-target="#myModal6">
-                    <div class="image-top">
+                    <div className="image-top">
 
-                            <img src="img/cotton-club.png" class="resource" alt="image of chari person of cotton club museum"/>
+                            <img src="img/cotton-club.png" className="resource" alt="image of chari person of cotton club museum"/>
 
 
                      
                     </div>
 
-                    <div class="card-text">
+                    <div className="card-text">
                         <p><strong>Cotton Club Museum and Cultural Center</strong></p>
                         <p>28:30</p>
                     </div>
@@ -101,15 +101,15 @@ render(){
             </section>
 
 
-            <div class="bs-example"> 
-        <div id="myModal1" class="modal fade">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h4 class="modal-title">In the Shadows of Plantations</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <div className="bs-example"> 
+        <div id="myModal1" className="modal fade">
+            <div className="modal-dialog">
+                <div className="modal-content">
+                    <div className="modal-header">
+                    <h4 className="modal-title">In the Shadows of Plantations</h4>
+                        <button type="button" className="close" data-dismiss="modal" aria-hidden="true">×</button>
                     </div>
-                    <div class="modal-body-2">
+                    <div className="modal-body-2">
 
                         <iframe width="100%" height="400px" src="https://www.youtube.com/embed/AMjWEjQy7yI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -119,16 +119,16 @@ render(){
         </div>
     </div>
 
-    <div class="bs-example"> 
-        <div id="myModal2" class="modal fade">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h4 class="modal-title">Bo Diddley Memorial 2008</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <div className="bs-example"> 
+        <div id="myModal2" className="modal fade">
+            <div className="modal-dialog">
+                <div className="modal-content">
+                    <div className="modal-header">
+                    <h4 className="modal-title">Bo Diddley Memorial 2008</h4>
+                        <button type="button" className="close" data-dismiss="modal" aria-hidden="true">×</button>
                        
                     </div>
-                    <div class="modal-body-2">
+                    <div className="modal-body-2">
 
                         <iframe width="100%" height="400px" src="https://www.youtube.com/embed/uQoD2sS5S6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -138,15 +138,15 @@ render(){
         </div>
     </div>
 
-    <div class="bs-example"> 
-        <div id="myModal3" class="modal fade">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h4 class="modal-title">Negro Baseball League Players visit Alachua County</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <div className="bs-example"> 
+        <div id="myModal3" className="modal fade">
+            <div className="modal-dialog">
+                <div className="modal-content">
+                    <div className="modal-header">
+                    <h4 className="modal-title">Negro Baseball League Players visit Alachua County</h4>
+                        <button type="button" className="close" data-dismiss="modal" aria-hidden="true">×</button>
                     </div>
-                    <div class="modal-body-2">
+                    <div className="modal-body-2">
 
                         <iframe width="100%" height="400px" src="https://www.youtube.com/embed/7BppYvSvLrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -157,15 +157,15 @@ render(){
     </div>
 
 
-    <div class="bs-example">  
-        <div id="myModal4" class="modal fade">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h4 class="modal-title">Alachua County Talks: Verdell Washington Robinson</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <div className="bs-example">  
+        <div id="myModal4" className="modal fade">
+            <div className="modal-dialog">
+                <div className="modal-content">
+                    <div className="modal-header">
+                    <h4 className="modal-title">Alachua County Talks: Verdell Washington Robinson</h4>
+                        <button type="button" className="close" data-dismiss="modal" aria-hidden="true">×</button>
                     </div>
-                    <div class="modal-body-2">
+                    <div className="modal-body-2">
 
                         <iframe width="100%" height="400px" src="https://www.youtube.com/embed/9FtJSvUeIPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -177,15 +177,15 @@ render(){
 
 
 
-    <div class="bs-example">
-        <div id="myModal6" class="modal fade">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h4 class="modal-title">Cotton Club Museum and Cultural Center</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <div className="bs-example">
+        <div id="myModal6" className="modal fade">
+            <div className="modal-dialog">
+                <div className="modal-content">
+                    <div className="modal-header">
+                    <h4 className="modal-title">Cotton Club Museum and Cultural Center</h4>
+                        <button type="button" className="close" data-dismiss="modal" aria-hidden="true">×</button>
                     </div>
-                    <div class="modal-body-2">
+                    <div className="modal-body-2">
 
                         <iframe width="100%" height="400px" src="https://player.vimeo.com/video/9700903" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
