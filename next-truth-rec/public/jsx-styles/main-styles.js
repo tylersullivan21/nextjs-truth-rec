@@ -6,8 +6,9 @@ export default css `
     line-height: 2em;
 }
 
-
-
+body{
+    margin: 0!important;
+}
 #main-section {
 }
 .index-main {
