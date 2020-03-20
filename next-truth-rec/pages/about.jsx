@@ -9,12 +9,12 @@ render(){
     return(
 <Layout>
 
-    <section class="main-about">
-    <h1 class="title-about">Alachua County Truth and Reconciliation Initiative.</h1>
-    <div class="about-content">
+    <section className="main-about">
+    <h1 classNameName="title-about">Alachua County Truth and Reconciliation Initiative.</h1>
+    <div classNameName="about-content">
          <p>Concerning the Truth and Reconciliation process, the Board passed the following:</p>
 
-         <ol class="motions">
+         <ol classNameName="motions">
              <li>The County Commission hereby initiates its Truth and Reconciliation process, 
                  the goal of which is to set an example for how local government can recall its role in our history of racial injustice, 
                  and repair what it can through official apologies and appropriate reparations.</li>
@@ -41,7 +41,7 @@ render(){
                  with a goal to complete the research phase by 2020.</li>
 
              <li>The County will formally request that the memorial slab of Alachua County victims of lynching be transferred to County government: 
-                 <ol class="a">
+                 <ol classNameName="a">
                  <li>As soon as the EJI requirements have been met for this truth and reconciliation process</li>
                 <li>  Determined through a public process where and how the monument will be displayed </li>
                 <li>  Have raised sufficient public and private funds required to properly display and interpret the monument. </li>
