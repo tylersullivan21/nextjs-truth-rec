@@ -28,7 +28,7 @@ render(){
                 <article class="walls-sign">
                     <div class="image-top">
                         <a data-toggle="modal" data-target="#NewberryLynchingMarker">
-                            <img src={newberryMarker} class="resource" alt="Newberry Lynching Marker" />
+                            <img src="img/Newberry-Lynching-Marker.jpg" class="resource" alt="Newberry Lynching Marker" />
                         </a>
                         <div class="shadow-text">
                             <p><a data-toggle="modal" data-target="#NewberryLynchingMarker"><strong>Newberry Lynching
@@ -40,7 +40,7 @@ render(){
                 <article class="walls-sign">
                     <div class="image-top">
                         <a data-toggle="modal" data-target="#Josiah">
-                            <img src={wallsSign} class="resource" alt="Walls Lankdmark Image" />
+                            <img src="img/walls.png" class="resource" alt="Walls Lankdmark Image" />
                         </a>
                         <div class="shadow-text">
                             <p><a data-toggle="modal" data-target="#Josiah"><strong>Josiah T. Walls</strong></a></p>
@@ -56,14 +56,10 @@ render(){
                     <div class="image-top">
                         <a href="#img2">
                             </a><a data-toggle="modal" data-target="#Serenola">
-                                <img src={serenolaPlantation} class="resource" alt="Image pf Serenola Landmark" />
+                                <img src="img/serenola.png" class="resource" alt="Image pf Serenola Landmark" />
                             </a>
                         
 
-                   
-                        <a href="#_" class="lightbox" id="img3">
-                            <img src={serenolaPlantation} alt="Image of Serenola Landmark" />
-                        </a>
                         <div class="shadow-text">
                             <p><a data-toggle="modal" data-target="#Serenola"><strong>Serenola Plantation</strong></a>
                             </p>
@@ -88,7 +84,7 @@ render(){
                     <div class="image-top">
 
                         <a data-toggle="modal" data-target="#quinn">
-                            <img src={quinnJones} class="resource" alt="Image of Quinn Jones Landmark" />
+                            <img src="img/quinn-jones.png" class="resource" alt="Image of Quinn Jones Landmark" />
                         </a>
 
 
@@ -104,7 +100,7 @@ render(){
                     <div class="image-top">
 
                         <a data-toggle="modal" data-target="#liberty">
-                            <img src={libertyHill} class="resource" alt="Image of Liberty Hill Landmar" />
+                            <img src="img/liberty-hill.png" class="resource" alt="Image of Liberty Hill Landmar" />
                         </a>
 
 
@@ -123,7 +119,7 @@ render(){
                     <div class="image-top">
 
                         <a data-toggle="modal" data-target="#shady-grove">
-                            <img src={shadyGrove} class="resource" alt="Image of Shady Grove Baptist Church" />
+                            <img src="img/shady-grove.png" class="resource" alt="Image of Shady Grove Baptist Church" />
                         </a>
 
 
@@ -141,7 +137,7 @@ render(){
                     <div class="image-top">
 
                         <a data-toggle="modal" data-target="#pleasant">
-                            <img src={pleasantStreet} class="resource" alt="Image of pleasant street historic district" />
+                            <img src="img/pleasant-street.png" class="resource" alt="Image of pleasant street historic district" />
                         </a>
 
 
