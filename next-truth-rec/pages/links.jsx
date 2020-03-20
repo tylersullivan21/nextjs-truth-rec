@@ -1,18 +1,18 @@
 import Navigation from "../components/Navigation";
 import Modal from "../components/Modal";
 import Footer from "../components/Footer";
-
+import Layout from "../components/Layout";
+import linksStyles from "../public/jsx-styles/links-styles"
 
 class LinksPage extends React.Component{
 
 render(){
     return(
-<div>
-    <Navigation/>
-    <Modal/>
+
+    <Layout>
     <div id="links-main">
-        <div class="link-intro">
-        <h1 class="title">Links</h1>
+        <div className="link-intro">
+        <h1 className="title">Links</h1>
 
 <hr></hr>
         <div>
@@ -26,15 +26,14 @@ render(){
 
         </div> 
         <hr></hr>
-        <div class="fourth">
+        <div className="fourth">
             <p><a href="http://www.alachuaclerk.org/archive/CFDocs/TransSearchsolr.cfm" target="blank"><strong>Alachua County Ancient Records Transcription Search</strong></a></p>
             <p>Search the volunteer provided transcriptions of Alachua County's Record Book images.</p>
         </div>
         </div>
     </div>
-
-    <Footer/>
-</div>
+    <style jsx>{linksStyles}</style>
+    </Layout>
 )
     }
 }
