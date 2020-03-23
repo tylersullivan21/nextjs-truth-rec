@@ -1,4 +1,4 @@
-#documents-main{
+.documents-main{
   width: 90vw;
   /*min-height: calc(100vh - 180px);*/
   display:-ms-grid;
@@ -15,17 +15,17 @@
   ". minutes-title ."
   ". items .";
 }
-#intro{
+.intro{
     -ms-grid-row:1;
     -ms-grid-column:2;
     grid-area:intro;
 }
-#search {
+.search {
     -ms-grid-row: 2;
     -ms-grid-column: 2;
     grid-area: search;
 }
-#minutes-title{
+.minutes-title{
     -ms-grid-row: 3;
     -ms-grid-column: 2;
     grid-area: minutes-title;
@@ -33,7 +33,7 @@
 #card-container{
    /* grid-column: 2/3;*/
 }
-#card{
+.card{
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 30% 1fr;
@@ -131,7 +131,7 @@
   }
 
   @media (min-width: 1024px) {
-    #main-section {
+    .documents-main{
         -ms-grid-columns: 22% 1fr 22%;
         grid-template-columns: 22% 1fr 22%;
     }
