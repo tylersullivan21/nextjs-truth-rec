@@ -1,6 +1,4 @@
-import Navigation from "../components/Navigation";
-import Modal from "../components/Modal";
-import Footer from "../components/Footer";
+
 import Layout from "../components/Layout";
 import aboutStyles from "../public/jsx-styles/about-styles";
 class AboutPage extends React.Component{
@@ -10,11 +8,11 @@ render(){
 <Layout>
 
     <section className="main-about">
-    <h1 classNameName="title-about">Alachua County Truth and Reconciliation Initiative.</h1>
-    <div classNameName="about-content">
+    <h1 className="title-about">Alachua County Truth and Reconciliation Initiative.</h1>
+    <div className="about-content">
          <p>Concerning the Truth and Reconciliation process, the Board passed the following:</p>
 
-         <ol classNameName="motions">
+         <ol className="motions">
              <li>The County Commission hereby initiates its Truth and Reconciliation process, 
                  the goal of which is to set an example for how local government can recall its role in our history of racial injustice, 
                  and repair what it can through official apologies and appropriate reparations.</li>
@@ -41,7 +39,7 @@ render(){
                  with a goal to complete the research phase by 2020.</li>
 
              <li>The County will formally request that the memorial slab of Alachua County victims of lynching be transferred to County government: 
-                 <ol classNameName="a">
+                 <ol className="a">
                  <li>As soon as the EJI requirements have been met for this truth and reconciliation process</li>
                 <li>  Determined through a public process where and how the monument will be displayed </li>
                 <li>  Have raised sufficient public and private funds required to properly display and interpret the monument. </li>

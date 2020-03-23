@@ -7,14 +7,14 @@ h3{
     display: grid;
     -ms-grid-columns: 30% 1fr 30%;
     grid-template-columns: 30% 1fr 30%;
-        grid-template-areas: ". title ." ". about-content .";
+        grid-template-areas: ". title-about ." ". about-content .";
         margin-top:50px;
 }
 
 .title-about{
     -ms-grid-row:1;
     -ms-grid-column:2;
-    grid-area:title;
+    grid-area:title-about;
 }
 
 .about-content{
