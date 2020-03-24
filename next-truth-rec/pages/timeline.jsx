@@ -12,7 +12,7 @@ render(){
     <section className="main">
             <h1 className="title">Alachua County Truth and Reconciliation Lynching Victim Timeline.</h1>
             <div id="cd-timeline" className="cd-contaner">
-                <div claseName="cd-timeline-block cd-year">
+                <div className="cd-timeline-block cd-year">
                     <div className="cd-timeline-img">
                         <span className="cd-year-content">1867</span>
                     </div>
@@ -20,7 +20,7 @@ render(){
                 <div className="cd-timeline-block">
                     <div className="cd-timeline-img cd-picture">
                     </div>
-                    <div classNameName="cd-timeline-content">
+                    <div className="cd-timeline-content">
                         <h2>Cooley Johnson</h2>
                         <p>Town: Newnansville</p>
                         <span className="cd-date">Feb. 12</span>

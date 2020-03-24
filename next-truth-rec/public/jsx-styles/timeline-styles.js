@@ -140,7 +140,7 @@ export default css `
     background: #00283C;
     border-radius: 2px;
     padding: 1em;
-    
+  }
     .timeline-content-info {
       background: #00283C;
       padding: 5px 10px;
@@ -149,6 +149,7 @@ export default css `
       -webkit-box-shadow:  inset 0 2px 0 rgba(0, 0, 0, 0.08);
               box-shadow:  inset 0 2px 0 rgba(0, 0, 0, 0.08);
       border-radius: 2px;
+    }
       i {
         margin-right: 5px;
       }
@@ -162,7 +163,7 @@ export default css `
           width:100%;
         } 
       }
-    }
+    
     .content-skills {
       font-size: 12px;
       padding:0;
@@ -177,6 +178,7 @@ export default css `
          -moz-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
+    }
       li {
         background: #40484D;
         border-radius: 2px;
@@ -190,8 +192,8 @@ export default css `
             -ms-flex-positive: 1;
                 flex-grow: 1;
       }
-    }
-  }
+    
+  
   .cd-timeline-content:after {
     content: "";
     display: table;

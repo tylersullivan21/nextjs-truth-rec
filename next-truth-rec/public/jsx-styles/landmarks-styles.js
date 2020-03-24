@@ -2,6 +2,52 @@ import css from 'styled-jsx/css'
 
 export default css `
 
+
+.modal-body{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 40%;
+    grid-template-columns: 60% 40%;
+        grid-template-areas:
+    "modal-description modal-landmark";
+}
+
+.modal-description{
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: modal-description;
+    line-height: 2rem;
+}
+
+.modal-landmark{
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: modal-landmark;
+    width: 100%;
+}
+
+@media screen and (max-width:980px){
+.modal-content {
+  width:100%;
+}
+
+
+
+.modal-body{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+    "modal-description" "modal-landmark";
+}
+
+
+
+}
+
+
 h1, h2{
     font-size: 1.5rem;
     font-weight: bold;
