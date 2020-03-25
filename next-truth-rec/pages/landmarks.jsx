@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import landmarksStyles from "../public/jsx-styles/landmarks-styles"
-import modalStyles from "../public/jsx-styles/modal-styles";
+
 var hiddenStyle = {display:'none'};
 
 class LandmarksPage extends React.Component{
@@ -346,7 +346,7 @@ render(){
 
     </section>
     <style jsx>{landmarksStyles}</style>
-    <style jsx>{modalStyles}</style>
+ 
     </Layout>
 )
     }

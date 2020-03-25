@@ -122,6 +122,8 @@ h1, h2{
     
 }
 
+
+
 .markers article, .register-sites article, .noteworthy-locations article, .map article{
 
     width:20%;
