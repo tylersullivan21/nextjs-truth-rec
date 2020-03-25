@@ -125,7 +125,7 @@ h1, h2{
 .markers article, .register-sites article, .noteworthy-locations article, .map article{
 
     width:20%;
-    min-width:250px;
+    min-width:200px;
     max-width:350px;
     margin-right:20px;
     margin-bottom:20px;
