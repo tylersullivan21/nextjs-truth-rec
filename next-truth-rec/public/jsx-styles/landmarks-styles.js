@@ -31,6 +31,10 @@ h2 {
     line-height: 2rem;
 }
 
+.modal-content{
+    width: 700px;
+}
+
 .modal-landmark{
     -ms-grid-row: 1;
     -ms-grid-column: 2;
