@@ -581,5 +581,8 @@ h1, h2{
     /** Unhide lightbox **/
     display: block;
 }
+.modal-description{
+    line-height: 2.5rem;
+}
 
 `
