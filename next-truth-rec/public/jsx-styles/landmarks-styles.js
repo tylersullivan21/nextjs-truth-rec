@@ -32,7 +32,7 @@ h2 {
 }
 
 .modal-content{
-    width: 700px;
+    width: 650px;
 }
 
 .modal-landmark{

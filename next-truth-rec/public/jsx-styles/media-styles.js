@@ -5,9 +5,7 @@ export default css `
 /* MAPPING NESTED GRIDS FOR CONTENT AREAS: VIDEO, PHOTOS AND MAP*/
 
 /* MODAL STYLES*/
-.modal-content{
- width:700px;
-}
+
 .modal-body-2{
  padding: 15px;
 }
