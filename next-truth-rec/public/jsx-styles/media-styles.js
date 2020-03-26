@@ -4,8 +4,13 @@ export default css `
 
 /* MAPPING NESTED GRIDS FOR CONTENT AREAS: VIDEO, PHOTOS AND MAP*/
 
-/* CSS FOR NAVBAR AND SUBNAV BAR*/
-
+/* MODAL STYLES*/
+.modal-content{
+ width:700px;
+}
+.modal-body-2{
+ padding: 15px;
+}
 /* STYLES FOR 1024 AND LARGER*/
 body {
     font-size: 16px;
