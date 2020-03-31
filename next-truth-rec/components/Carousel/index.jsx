@@ -25,7 +25,7 @@ componentDidMount(){
 render(){
     return(
     <React.Fragment>
-    <div className="main-carousel">
+    <div className="main-carousel hero">
   <div className="carousel-cell">
       <img src="https://via.placeholder.com/468x60?text=Visit+Blogging.com+Now
 

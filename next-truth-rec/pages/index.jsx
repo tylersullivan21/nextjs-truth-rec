@@ -16,12 +16,12 @@ import Carousel from "../components/Carousel"
 const MainPage  = () => (
  
     <Layout> 
-         <Carousel/>
+        
           <section className="index-main main">
   
-                <div className="hero grid-item">
-                    <img className="hero-img" src="img/cropped-cover-image.png" alt="downtown gainesville image"/>
-                </div>
+             
+                <Carousel className="hero grid-item"/>
+              
   
                 <div id="truth-rec-info">
                     <div className="truth-info-head">
