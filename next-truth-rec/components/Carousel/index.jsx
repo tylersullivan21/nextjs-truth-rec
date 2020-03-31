@@ -5,32 +5,38 @@ import $ from "jquery";
 
 class Carousel extends React.Component{
 
-    /*ADD THIS JQUERY INTO COMPONENT DID MOUNT
-    $('.main-carousel').flickity({
-  // options
-  cellAlign: 'left',
-  contain: true
-});
+  
 componentDidMount(){
-
+    var elem = document.querySelector('.main-carousel');
+    var flkty = new Flickity( elem, {
+      // options
+      cellAlign: 'left',
+      contain: true
+    });
+    
+    // element argument can be a selector string
+    //   for an individual element
+    var flkty = new Flickity( '.main-carousel', {
+      // options
+    });
 }
-*/
+
 
 render(){
     return(
     <React.Fragment>
-    <div class="main-carousel">
-  <div class="carousel-cell">
+    <div className="main-carousel">
+  <div className="carousel-cell">
       <img src="https://via.placeholder.com/468x60?text=Visit+Blogging.com+Now
 
 C/O https://placeholder.com/" alt=""/>
   </div>
-  <div class="carousel-cell">
+  <div className="carousel-cell">
       <img src="https://via.placeholder.com/468x60?text=Visit+Blogging.com+Now
 
 C/O https://placeholder.com/" alt=""/>
   </div>
-  <div class="carousel-cell">
+  <div className="carousel-cell">
       <img src="https://via.placeholder.com/468x60?text=Visit+Blogging.com+Now
 
 C/O https://placeholder.com/" alt=""/>
