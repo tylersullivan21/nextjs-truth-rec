@@ -18,18 +18,18 @@ render(){
                 <div className="image-grid">
                    
                     <div className="media">
-                    <Link href="/media"><a><img className="resource" src="/img/cotton-club-overlay.png" alt="Image-left" /><div className="overlay"></div><div className="span-text"><div className="text"><p>Media</p></div></div><div className="description-text"><div className="text-2"><p>Photos, Videos</p></div></div></a></Link>
+                    <Link href="/mediapage/media"><a><img className="resource" src="/img/cotton-club-overlay.png" alt="Image-left" /><div className="overlay"></div><div className="span-text"><div className="text"><p>Media</p></div></div><div className="description-text"><div className="text-2"><p>Photos, Videos</p></div></div></a></Link>
                     </div>
                     <div className="documents">
-                    <Link href="/documents"><a><img className="resource" src="/img/document-overlay.png" alt="Image-left" /><div className="overlay"></div><div className="span-text"><div className="text"><p>Documents</p></div></div><div className="description-text"><div className="text-2"><p>Meeting Minutes</p></div></div></a></Link>
+                    <Link href="/documentspage/documents"><a><img className="resource" src="/img/document-overlay.png" alt="Image-left" /><div className="overlay"></div><div className="span-text"><div className="text"><p>Documents</p></div></div><div className="description-text"><div className="text-2"><p>Meeting Minutes</p></div></div></a></Link>
                     </div>
           
                     <div className="landmarks">
-                    <Link href="/landmarks"><a><img className="resource" src="/img/landmark-resource-overlay.png" alt="Image-left" /><div className="overlay"></div><div className="span-text"><div className="text"><p>Landmarks</p></div></div><div className="description-text"><div className="text-2"><p>Marker Locations, National Register Sites</p></div></div></a></Link>
+                    <Link href="/landmarkspage/landmarks"><a><img className="resource" src="/img/landmark-resource-overlay.png" alt="Image-left" /><div className="overlay"></div><div className="span-text"><div className="text"><p>Landmarks</p></div></div><div className="description-text"><div className="text-2"><p>Marker Locations, National Register Sites</p></div></div></a></Link>
                     </div>
                  
                     <div className="links">
-                    <Link href="/links"><a><img className="resource" src="/img/links-overlay.png" alt="Image-left" /><div className="overlay"></div><div className="span-text"><div className="text"><p>Links</p></div></div><div className="description-text"><div className="text-2"><p>Related links, Historical Organizations</p></div></div></a></Link>
+                    <Link href="/linkspage/links"><a><img className="resource" src="/img/links-overlay.png" alt="Image-left" /><div className="overlay"></div><div className="span-text"><div className="text"><p>Links</p></div></div><div className="description-text"><div className="text-2"><p>Related links, Historical Organizations</p></div></div></a></Link>
                     </div>
                 </div>
             </div>

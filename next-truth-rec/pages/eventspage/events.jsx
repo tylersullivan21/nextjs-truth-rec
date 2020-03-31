@@ -1,5 +1,5 @@
-import Layout from "../components/Layout";
-import eventsStyles from "../public/jsx-styles/events-styles";
+import Layout from "../../components/Layout";
+import eventsStyles from "./events-styles";
 
 class EventsPage extends React.Component{
 

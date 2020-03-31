@@ -1,5 +1,5 @@
-import Layout from "../components/Layout";
-import mediaStyles from "../public/jsx-styles/media-styles";
+import Layout from "../../components/Layout";
+import mediaStyles from "./media-styles";
 
 class MediaPage extends React.Component{
 
@@ -22,7 +22,7 @@ render(){
                     <a data-toggle="modal" data-target="#myModal1">
                     <div className="image-top-left">
 
-                            <img data-toggle="modal" src="img/shadows.png" className="resource" alt="in the shadows image"/>
+                            <img data-toggle="modal" src="../img/shadows.png" className="resource" alt="in the shadows image"/>
 
                     </div>
 
@@ -38,7 +38,7 @@ render(){
                     <a data-toggle="modal" data-target="#myModal2">
                     <div className="image-top-left">
 
-                            <img src="img/bo-diddley.png" className="resource" alt="image of Bo Diddley Memorial 2008"/>
+                            <img src="../img/bo-diddley.png" className="resource" alt="image of Bo Diddley Memorial 2008"/>
                     
                     </div>
 
@@ -52,7 +52,7 @@ render(){
                     <a data-toggle="modal" data-target="#myModal3">
                     <div className="image-top">
 
-                            <img src="img/baseball-league.png" className="resource" alt="image of baseball players"/>
+                            <img src="../img/baseball-league.png" className="resource" alt="image of baseball players"/>
 
                     </div>
 
@@ -68,7 +68,7 @@ render(){
                     <a data-toggle="modal" data-target="#myModal4">
                     <div className="image-top">
 
-                            <img src="img/verdell.png" className="resource" alt="image of Verdell Washington" />
+                            <img src="../img/verdell.png" className="resource" alt="image of Verdell Washington" />
     
                     </div>
 
@@ -84,7 +84,7 @@ render(){
                     <a data-toggle="modal" data-target="#myModal6">
                     <div className="image-top">
 
-                            <img src="img/cotton-club.png" className="resource" alt="image of chari person of cotton club museum"/>
+                            <img src="../img/cotton-club.png" className="resource" alt="image of chari person of cotton club museum"/>
 
 
                      

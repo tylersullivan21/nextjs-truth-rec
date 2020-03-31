@@ -1,6 +1,6 @@
 
-import Layout from "../components/Layout";
-import aboutStyles from "../public/jsx-styles/about-styles";
+import Layout from "../../components/Layout";
+import aboutStyles from "./about-styles";
 class AboutPage extends React.Component{
 
 render(){

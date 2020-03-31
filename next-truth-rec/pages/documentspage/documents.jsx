@@ -1,5 +1,5 @@
-import Layout from "../components/Layout";
-import documentsStyles from "../public/jsx-styles/documents-styles";
+import Layout from "../../components/Layout";
+import documentsStyles from "./documents-styles";
 
 class DocumentsPage extends React.Component{
 
