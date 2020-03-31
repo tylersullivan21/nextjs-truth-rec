@@ -42,7 +42,7 @@ const MainPage  = () => (
                     
                         <div className="images">
                             <div className="img-left">
-                               <Link href="/resources"><a><img className="img1" src="/img/courthouse-overlay.png" alt=""/><div className="span-text"><div className="overlay-text"><p>Resources</p></div></div></a></Link>
+                               <Link href="/resourcespage/resources"><a><img className="img1" src="/img/courthouse-overlay.png" alt=""/><div className="span-text"><div className="overlay-text"><p>Resources</p></div></div></a></Link>
                               </div>
 
                               <div className="img-center">
