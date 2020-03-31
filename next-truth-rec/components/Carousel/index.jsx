@@ -1,11 +1,7 @@
 import React from "react";
 import $ from "jquery";
 
-
-
 class Carousel extends React.Component{
-
-  
 componentDidMount(){
     var elem = document.querySelector('.main-carousel');
     var flkty = new Flickity( elem, {
@@ -21,13 +17,9 @@ componentDidMount(){
     });
 }
 
-
 render(){
     return(
     <React.Fragment>
-  
-
-
   <div className="main-carousel">
    <div className="carousel-cell video-wrap">
       <iframe 
