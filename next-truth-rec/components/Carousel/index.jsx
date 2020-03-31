@@ -25,7 +25,19 @@ componentDidMount(){
 render(){
     return(
     <React.Fragment>
-    <div className="main-carousel hero">
+  
+
+
+  <div className="main-carousel">
+   <div className="carousel-cell video-wrap">
+      <iframe 
+      src="https://www.youtube-nocookie.com/embed/TUhQV6QBeck?rel=0"
+      frameborder="0" 
+      allowfullscreen>
+      </iframe>
+      <div className="video-wrap__grippy"></div>
+      <div className="video-wrap__grippy"></div>
+  </div>
   <div className="carousel-cell">
       <img src="https://via.placeholder.com/1080x460?text=Visit+Blogging.com+Now
 
@@ -36,12 +48,7 @@ C/O https://placeholder.com/" alt=""/>
 
 C/O https://placeholder.com/" alt=""/>
   </div>
-  <div className="carousel-cell">
-      <img src="https://via.placeholder.com/1080x460?text=Visit+Blogging.com+Now
-
-C/O https://placeholder.com/" alt=""/>
-  </div>
-  </div>
+</div>
   </React.Fragment>
     );
 }
