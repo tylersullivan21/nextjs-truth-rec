@@ -20,7 +20,12 @@ h1 {
     -ms-grid-rows: auto 1fr auto;
     grid-template-rows: auto 1fr auto;
 }
-
+.title{
+    font-size: 1.5rem;
+    align-self:center;
+    margin-bottom: 2%;
+    text-align:center;
+}
 .resources-main{
 
     grid-area:main-section;
@@ -32,7 +37,7 @@ h1 {
     display:-moz-box;
     display:-ms-flexbox;
     display:flex;
-    margin-top:40px;
+    margin-top:20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
        -moz-box-orient: vertical;
@@ -51,7 +56,7 @@ h1 {
     grid-template-columns: 45% 45%;
     -ms-grid-rows: 45% 5% 45%;
     grid-template-rows: 45% 45%;
-    gap: 7%;
+    gap: 6%;
         grid-template-areas: "res1 res2" "res3 res4";
 
 }

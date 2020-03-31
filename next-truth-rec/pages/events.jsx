@@ -9,19 +9,24 @@ render(){
     <section id="events-main" className="main">
         <div id="main-content">
         <h1 className="title">Upcoming Events </h1>
-            <div>
-              <h3><a href="https://afam.clas.ufl.edu/african-american-studies-symposium/"><strong>2/20/2020 -
-                                    African American Studies Turns 50! Symposium &amp; Anniversary Celebration</strong></a></h3>
-                  <p>This Anniversary program is free and open to the public. Please RSVP by @
-                            africanamericanstudies.eventbrite.com</p><br/>
-                  <a href="https://www.eventbrite.com/e/african-american-studies-50th-celebration-uf-tickets-79771160689">Click here to register &gt;</a>                
-            </div>
+        <div>
+                    <h3><strong>4/4/2020 -
+                        Soil Collection &amp; Commemoration of the Victims of Lynching in Newberry</strong></h3> 
+                    <br/>
+                    <br/>
+                </div>
             <hr/>
             <br/>
             <br/>
-            <br/>
-            <br/>
             <h2 className="title">Past Events</h2>
+            <div>
+                    <h3><a href="https://afam.clas.ufl.edu/african-american-studies-symposium/"><strong>2/20/2020 -
+                                African American Studies Turns 50! Symposium &amp; Anniversary Celebration</strong></a></h3>
+                    <p>This Anniversary program is free and open to the public. Please RSVP by @
+                        africanamericanstudies.eventbrite.com</p><br/>
+                        <a href="https://www.eventbrite.com/e/african-american-studies-50th-celebration-uf-tickets-79771160689">Click here to register &gt;</a>
+                        
+                </div>
               <div>
                 <h3><strong>2/17/2020 - Alachua County BoCC Special Meeting/Workshop – Truth and Reconciliation Community Remembrance Project</strong></h3>
                 <p>Alachua County is hosting a community workshop to discuss plans for commemorating and recognizing victims of lynching with plans to erect historical markers throughout the county, which will create memorials that acknowledges the horrors of racial injustice. <strong>This workshop will be held at the Senior Recreation Center, 5701 NW 34th Blvd., Gainesville, FL 32653, at 6:00 p.m. It is open to the public.</strong></p><br/>
