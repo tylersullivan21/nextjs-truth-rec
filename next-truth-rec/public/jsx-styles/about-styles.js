@@ -23,8 +23,8 @@ h3{
 .main-about{
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 30% 1fr 30%;
-    grid-template-columns: 30% 1fr 30%;
+    -ms-grid-columns: 25% 1fr 25%;
+    grid-template-columns: 25% 1fr 25%;
         grid-template-areas: ". title ." ". about-content .";
         margin-top:50px;
 }
