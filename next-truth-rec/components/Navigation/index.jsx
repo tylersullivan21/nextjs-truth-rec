@@ -18,7 +18,7 @@ class Navigation extends React.Component{
                     <div className=" grid-item elements">
                         <ul className="element-children">
                             <li className="menu"> <Link href="../aboutpage/about"><a>About</a></Link></li>
-                            <li id = "explore" className="menu"><Link href="/resources"><a>Resources</a></Link></li>
+                            <li id = "explore" className="menu"><Link href="/resourcespage/resources"><a>Resources</a></Link></li>
                             <li className="menu"><Link href="/reparations"><a>Reparations</a></Link></li>
                             <li className="menu"><Link href="/eventspage/events"><a>Events</a></Link></li>
                             <li className="menu"><Link href="/contactpage/contact"><a>Contact</a></Link></li>
@@ -34,9 +34,9 @@ class Navigation extends React.Component{
 
                     <div className="grid-item subnav">
                         <ul className="sub-elements">
-                            <li><Link href="/resources"><a>Resources</a></Link></li>
+                            <li><Link href="/resourcespage/resources"><a>Resources</a></Link></li>
                             <li><Link href="/landmarkspage/landmarks"><a>Landmarks</a></Link></li>
-                            <li><Link href="/timeline"><a>Timeline</a></Link></li>
+                            <li><Link href="/timelinepage/timeline"><a>Timeline</a></Link></li>
                         </ul>
                     </div>
 

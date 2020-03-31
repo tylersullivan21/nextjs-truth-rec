@@ -46,11 +46,11 @@ const MainPage  = () => (
                               </div>
 
                               <div className="img-center">
-                                  <Link href="/timeline"><a><img className="img2" src="/img/road-overlay.png"  alt=""/><div className="span-text"><div className="overlay-text"><p>Timeline</p></div></div></a></Link>
+                                  <Link href="/timelinepage/timeline"><a><img className="img2" src="/img/road-overlay.png"  alt=""/><div className="span-text"><div className="overlay-text"><p>Timeline</p></div></div></a></Link>
                                 </div>
                     
                                 <div className="img-right">
-                                    <Link href="/events"><a><img className="img3" src="/img/map-overlay.png" alt=""/><div className="span-text"><div className="overlay-text"><p>Events</p></div></div></a></Link>
+                                    <Link href="/eventspage/events"><a><img className="img3" src="/img/map-overlay.png" alt=""/><div className="span-text"><div className="overlay-text"><p>Events</p></div></div></a></Link>
                           </div>
                           </div>
                   <div className="roosevelt-quote">
