@@ -27,17 +27,17 @@ render(){
     <React.Fragment>
     <div className="main-carousel hero">
   <div className="carousel-cell">
-      <img src="https://via.placeholder.com/468x60?text=Visit+Blogging.com+Now
+      <img src="https://via.placeholder.com/1080x460?text=Visit+Blogging.com+Now
 
 C/O https://placeholder.com/" alt=""/>
   </div>
   <div className="carousel-cell">
-      <img src="https://via.placeholder.com/468x60?text=Visit+Blogging.com+Now
+      <img src="https://via.placeholder.com/1080x460?text=Visit+Blogging.com+Now
 
 C/O https://placeholder.com/" alt=""/>
   </div>
   <div className="carousel-cell">
-      <img src="https://via.placeholder.com/468x60?text=Visit+Blogging.com+Now
+      <img src="https://via.placeholder.com/1080x460?text=Visit+Blogging.com+Now
 
 C/O https://placeholder.com/" alt=""/>
   </div>
