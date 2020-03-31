@@ -10,11 +10,13 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
 import mainStyles from "../public/jsx-styles/main-styles"
+import Carousel from "../components/Carousel"
 
 //Functional Component 
 const MainPage  = () => (
-
+ 
     <Layout> 
+         <Carousel/>
           <section className="index-main main">
   
                 <div className="hero grid-item">
