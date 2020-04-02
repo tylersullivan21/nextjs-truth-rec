@@ -20,21 +20,15 @@ componentDidMount(){
 render(){
     return(
     <React.Fragment>
-  <div className="main-carousel">
+  <div className="main-carousel" >
   <div className="carousel-cell">
-      <img src="https://via.placeholder.com/1080x460?text=Visit+Blogging.com+Now
-
-C/O https://placeholder.com/" alt=""/>
+      <img src="./img/carousel-media/test.jpg" alt=""/>
   </div>
   <div className="carousel-cell">
-      <img src="https://via.placeholder.com/1080x460?text=Visit+Blogging.com+Now
-
-C/O https://placeholder.com/" alt=""/>
+      <img src="./img/carousel-media/test.jpg" alt=""/>
   </div>
   <div className="carousel-cell">
-      <img src="https://via.placeholder.com/1080x460?text=Visit+Blogging.com+Now
-
-C/O https://placeholder.com/" alt=""/>
+      <img src="./img/carousel-media/test.jpg" alt=""/>
   </div>
 </div>
   </React.Fragment>
@@ -43,3 +37,26 @@ C/O https://placeholder.com/" alt=""/>
 }
 
 export default Carousel;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="carousel-cell">
+<img src="./img/carousel-media/test.jpg" alt=""/>
+</div>
