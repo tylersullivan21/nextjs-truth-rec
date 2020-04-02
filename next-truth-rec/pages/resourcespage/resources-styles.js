@@ -38,6 +38,7 @@ h1 {
     display:-ms-flexbox;
     display:flex;
     margin-top:20px;
+margin-bottom:80px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
        -moz-box-orient: vertical;
@@ -52,11 +53,12 @@ h1 {
 .image-grid{
     display: -ms-grid;
     display: grid;
+   
     -ms-grid-columns: 45% 5% 45%;
     grid-template-columns: 45% 45%;
     -ms-grid-rows: 45% 5% 45%;
-    grid-template-rows: 45% 45%;
-    gap: 6%;
+    grid-template-rows: 50% 50%;
+    gap: 8%;
         grid-template-areas: "res1 res2" "res3 res4";
 
 }
