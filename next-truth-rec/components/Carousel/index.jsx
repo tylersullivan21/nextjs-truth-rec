@@ -6,13 +6,13 @@ componentDidMount(){
     var elem = document.querySelector('.main-carousel');
     var flkty = new Flickity( elem, {
       // options
-      cellAlign: 'center',
+      cellAlign: 'left',
       contain: true
     });
     
     // element argument can be a selector string
     //   for an individual element
-    var flkty = new Flickity( '.main-carousel', {
+    var flkty = new Flickity( '.carousel', {
       // options
     });
 }
@@ -20,7 +20,10 @@ componentDidMount(){
 render(){
     return(
     <React.Fragment>
-  <div className="main-carousel" >
+ 
+
+<div class="carousel"
+  data-flickity='{ "wrapAround": true }'>
   <div className="carousel-cell">
       <img src="./img/carousel-media/test.jpg" alt=""/>
   </div>
@@ -30,7 +33,11 @@ render(){
   <div className="carousel-cell">
       <img src="./img/carousel-media/test.jpg" alt=""/>
   </div>
+
+  
+  
 </div>
+
   </React.Fragment>
     );
 }
