@@ -15,7 +15,9 @@ componentDidMount(){
     //   for an individual element
     var flkty = new Flickity( '.carousel', {
       // options
-      wrapAround: true
+      wrapAround: true,
+      freeScroll: true,
+freeScrollFriction: 0.03
     });
 }
 
