@@ -35,7 +35,7 @@ render(){
    <div class="carousel-cell">
   <img src="./img/carousel-media/test.jpg" alt=""/>
   </div>
-  <div class="carousel-cell"></div>
+
 </div>
 
 
