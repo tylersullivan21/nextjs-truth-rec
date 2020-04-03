@@ -21,22 +21,25 @@ render(){
     return(
     <React.Fragment>
  
-
-<div class="carousel"
+ <div class="carousel"
   data-flickity='{ "wrapAround": true }'>
-  <div className="carousel-cell">
-      <img src="./img/carousel-media/test.jpg" alt=""/>
+  <div class="carousel-cell">
+  <img src="./img/carousel-media/test.jpg" alt=""/>
   </div>
-  <div className="carousel-cell">
-      <img src="./img/carousel-media/test.jpg" alt=""/>
+  <div class="carousel-cell">
+  <img src="./img/carousel-media/test.jpg" alt=""/>
   </div>
-  <div className="carousel-cell">
-      <img src="./img/carousel-media/test.jpg" alt=""/>
+  <div class="carousel-cell">
+  <img src="./img/carousel-media/test.jpg" alt=""/>
   </div>
-
-  
-  
+   <div class="carousel-cell">
+  <img src="./img/carousel-media/test.jpg" alt=""/>
+  </div>
+  <div class="carousel-cell"></div>
 </div>
+
+
+\
 
   </React.Fragment>
     );
@@ -56,14 +59,3 @@ export default Carousel;
 
 
 
-
-
-
-
-
-
-
-
-<div className="carousel-cell">
-<img src="./img/carousel-media/test.jpg" alt=""/>
-</div>
