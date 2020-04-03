@@ -6,8 +6,9 @@ componentDidMount(){
     var elem = document.querySelector('.main-carousel');
     var flkty = new Flickity( elem, {
       // options
-      cellAlign: 'left',
-      contain: true
+      cellAlign: 'center',
+      contain: false,
+      wrapAround: true
     });
     
     // element argument can be a selector string
@@ -21,8 +22,7 @@ render(){
     return(
     <React.Fragment>
  
- <div class="carousel"
-  data-flickity='{ "wrapAround": true }'>
+ <div class="carousel">
   <div class="carousel-cell">
   <img src="./img/carousel-media/test.jpg" alt=""/>
   </div>
