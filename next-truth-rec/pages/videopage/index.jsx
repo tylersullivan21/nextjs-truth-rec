@@ -9,18 +9,13 @@ return(
 
 <Layout>
 
-<div className="container">
-    <div className="video">
-
-    </div>
-
-    <div className="about-video">
-
-    </div>
-
-    <div className="related">
-
-    </div>
+<div class="wrapper">
+  <div class="letter">
+    A
+  </div>
+  <div class="letter">
+    B
+  </div>
 </div>
 <style jsx>{videoStyles}</style>
 </Layout>
