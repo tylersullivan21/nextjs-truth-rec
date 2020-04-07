@@ -1,16 +1,29 @@
 
-import Layout from "../../components/Layout";
 
+import videoStyles from "./video-styles";
 class VideoPage extends React.Component {
 
 render(){
 
 return(
 
-<Layout>
 
+<React.Fragment>
+<div className="container">
+    <div className="video">
 
-</Layout>
+    </div>
+
+    <div className="about-video">
+
+    </div>
+
+    <div className="related">
+
+    </div>
+</div>
+<style jsx>{videoStyles}</style>
+</React.Fragment>
 )
 
 }
