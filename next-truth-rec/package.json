@@ -10,9 +10,11 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
+    "express-validator": "^6.4.0",
     "flickity": "^2.2.1",
     "jquery": "^3.4.1",
     "next": "9.3.1",
+    "nodemailer": "^6.4.6",
     "popper.js": "^1.16.1",
     "react": "16.13.0",
     "react-dom": "16.13.0"
