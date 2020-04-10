@@ -1,5 +1,5 @@
 
-
+import Layout from "../../components/Layout";
 import videoStyles from "./video-styles";
 class VideoPage extends React.Component {
 
@@ -8,7 +8,8 @@ render(){
 return(
 
 
-<React.Fragment>
+
+    <Layout>
 <div className="container">
     <div className="video">
 
@@ -23,7 +24,7 @@ return(
     </div>
 </div>
 <style jsx>{videoStyles}</style>
-</React.Fragment>
+</Layout>
 )
 
 }
