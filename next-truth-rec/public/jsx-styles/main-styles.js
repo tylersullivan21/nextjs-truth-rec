@@ -126,6 +126,10 @@ h2 {
     font-weight: bold;
 }
 
+.overlay-text p{
+    text-decoration:underline;
+}
+
 /***********************************/
     /*TRUTH REC SECTION SECTION 2*/   
 /***********************************/

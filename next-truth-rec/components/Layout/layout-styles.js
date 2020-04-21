@@ -71,6 +71,8 @@ h2 {
 a:hover{
     color: #9F895d;
 }
+
+
   /* CODE FOR HAMBURGER MENU HERE*/
 #modal{
     background-color:#00283C;
