@@ -115,7 +115,7 @@ margin-bottom:80px;
 }
 .text p{
     color: white;
-    border-bottom: solid 3px #9F895D;
+    text-decoration: underline;
     font-size: 35px;
 }
 .description-text{
