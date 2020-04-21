@@ -91,7 +91,7 @@ a .logo-img {
 }
 .nav ul {
     list-style-type: none;
-
+    text-decoration: underline;
 }
 
 ul.modal-children{
