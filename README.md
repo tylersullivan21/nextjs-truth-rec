@@ -1,2 +1,2 @@
-# nextjs-truth-rec
-Project rebuilt in react framework (Next.js)
+# Truth and Reconciliation Rebuilt in Next.js
+
